@@ -3,6 +3,7 @@
     --white:#fffffe;
     --neutral-focus:#121629;
     --accent:#eebbc3;
+    --secondary:#f9f4ef;
 }
 *{
     margin: 0;
@@ -64,6 +65,24 @@ section{
     margin: 25px 0;
     font-style: italic;
 }
+#projects{
+    background-color: var(--secondary);
+    width: fit-content;
+    margin: auto;
+
+}
+#projects h1{
+    border-bottom: 5px solid var(--neutral);
+}
+#projects .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+    gap: 30px;
+    padding: 20px;
+    place-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
 #projects .project-title {
     height: 525px;
     width: 100%;
@@ -72,5 +91,7 @@ section{
 }
 
 #projects .project-title img{
-
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
