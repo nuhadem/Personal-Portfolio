@@ -91,6 +91,7 @@ section{
     align-items: center;
     justify-content: center;
     background-color: var(--neutral);
+    text-decoration: none;
     color: var(--accent);
     border-radius: 5px;
     box-shadow: 8px 8px 10px 5px rgb(100, 100, 100, 1);
@@ -101,3 +102,19 @@ height: 100%;
 width: 100%;
 object-fit: cover;
 }
+
+#projects .project-title p{
+    font-size: 25px;
+    padding: 10px;
+    }
+#projects .project-title span{
+    opacity: 0;
+    padding: 0 5px;
+    }
+#projects .project-title:hover span{
+    opacity: 100%;
+    color: var(--secondary);
+    transition: opacity 0.25s ease-in;
+
+    }
+    
