@@ -7,6 +7,7 @@
 }
 *{
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     font-family: sans-serif;
@@ -169,4 +170,20 @@ object-fit: cover;
 }
 #contact .social-media:hover{
    transform: translateY(10px);
+}
+
+footer{
+    border-top: 3px solid var(--accent);
+    color: var(--white);
+    font-size: 25px;
+    padding: 30px;
+}
+@media only screen and (width<700px) {
+    h1{
+        font-size: 50px;
+    }
+    #projects .project-title span{
+        height: 600px;
+        width: 100%;
+        }
 }
