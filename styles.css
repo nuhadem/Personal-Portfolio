@@ -84,7 +84,7 @@ section{
     max-width: 1200px;
     margin: auto;
 }
-#projects .project-title {
+#projects .project-tile {
     height: 525px;
     width: 100%;
     display: flex;
@@ -98,21 +98,21 @@ section{
     box-shadow: 8px 8px 10px 5px rgb(100, 100, 100, 1);
 }
 
-#projects .project-title img{
+#projects .project-tile img{
 height: 100%;
 width: 100%;
 object-fit: cover;
 }
 
-#projects .project-title p{
+#projects .project-tile p{
     font-size: 25px;
     padding: 10px;
     }
-#projects .project-title span{
+#projects .project-tile span{
     opacity: 0;
     padding: 0 5px;
     }
-#projects .project-title:hover span{
+#projects .project-tile:hover span{
     opacity: 100%;
     color: var(--secondary);
     transition: opacity 0.25s ease-in;
@@ -182,7 +182,7 @@ footer{
     h1{
         font-size: 50px;
     }
-    #projects .project-title span{
+    #projects .project-tile span{
         height: 600px;
         width: 100%;
         }
